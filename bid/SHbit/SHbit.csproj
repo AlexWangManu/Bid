@@ -44,7 +44,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="tessnet2_32">
-      <HintPath>F:\沪牌代拍\bid\ByPassCaptcha\ByPassCaptcha\tessnet2_32.dll</HintPath>
+      <HintPath>..\..\..\SHBid\tessnet2_32.dll</HintPath>
     </Reference>
     <Reference Include="UIAutomationClient" />
     <Reference Include="UIAutomationClientsideProviders" />

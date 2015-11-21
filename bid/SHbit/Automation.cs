@@ -78,6 +78,7 @@ namespace SHbit
 
         public Automation()
         {
+            ConfigurationManager.RefreshSection("appSettings");
             isSendPrice = bool.Parse(ConfigurationManager.AppSettings["isSendPrice"]);
             warningPrice = ConfigurationManager.AppSettings["warningPrice"];
             imageFullPath = Path.Combine(ConfigurationManager.AppSettings["imagePath"], "1.bmp");
